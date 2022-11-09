@@ -1,0 +1,22 @@
+{
+    "name": "yactouatwcs/phpunit_demo",
+    "require": {
+        "twig/twig": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yactouat",
+            "email": "yacine.touati@wildcodeschool.com"
+        }
+    ]
+}
